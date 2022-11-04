@@ -1,0 +1,64 @@
+@media(prefers-color-scheme: dark){
+    :root{
+        --primary-background:#151437;
+        --secondary-text-color: #e5e5e5;
+        --primary-text-color: #FFFFFF;
+    }
+    .navbar-brand::before{
+        content: url('../images/rtjdyy.png')
+        
+    }
+    
+}
+@media(max-width:1400px){
+    .shape1{
+        top: -250px;
+    }
+    
+}
+
+@media(max-width:1200px){
+    .shape1{
+        top: -100px ;
+    }
+    .shape2{
+        top: -50px;
+        
+    }
+}
+
+@media(max-width:992px){
+    .carousel-photo{
+        margin: 0 auto;
+    }
+    .shape{
+        display: none;
+    }
+    .works_item{
+        width: 50%;
+    }
+    .works__tab{
+        border-radius: 0 0 0 0  ;
+    }
+    .works_item:first-child .works-tab{
+        border-radius: 8px 0 0 0 ;
+    }
+    .works_item:last-child .works-tab{
+        border-radius:  0 0 8px 0 ;
+    }
+    .works_item:nth-of-type(2) .works-tab{
+        border-radius:  0 8px 0 0 ;
+    }
+    .works_item:nth-of-type(4) .works__tab{
+        border-radius:  0  0 0 8px ;
+    }
+}
+
+@media(max-width:768px){
+    .works__img{
+        max-height: 400px;
+    }
+    .rectangle{
+        display: none;
+    }
+}
